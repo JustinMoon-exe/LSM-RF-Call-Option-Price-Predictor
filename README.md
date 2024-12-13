@@ -1,12 +1,12 @@
 # LSMRF-COPP: Enhancing American Call Option Pricing with Random Forests
 
-This repository contains the code and documentation for the \textit{LSMRF-COPP} (Least Squares Monte Carlo - Random Forest - Call Option Price Predictor) model, a hybrid approach for pricing American call options.  The model combines the Least Squares Monte Carlo (LSM) algorithm with a Random Forest regressor to improve the accuracy of continuation value estimation and, consequently, option pricing.
+This repository contains the code and documentation for the LSMRF-COPP (Least Squares Monte Carlo - Random Forest - Call Option Price Predictor) model, a hybrid approach for pricing American call options.  The model combines the Least Squares Monte Carlo (LSM) algorithm with a Random Forest regressor to improve the accuracy of continuation value estimation and, consequently, option pricing.
 
 This project was completed for GSU 4740 Data Mining
 
 ## Project Overview
 
-Traditional LSM methods often rely on polynomial regression for estimating continuation values, which may not effectively capture the complex, non-linear relationships present in option pricing data.  \textit{LSMRF-COPP} addresses this limitation by integrating a Random Forest regressor, leveraging its ability to learn non-linear patterns and handle high-dimensional data.  The model is trained and evaluated using historical SPY option data from Yahoo Finance.
+Traditional LSM methods often rely on polynomial regression for estimating continuation values, which may not effectively capture the complex, non-linear relationships present in option pricing data.  LSMRF-COPP addresses this limitation by integrating a Random Forest regressor, leveraging its ability to learn non-linear patterns and handle high-dimensional data.  The model is trained and evaluated using historical SPY option data from Yahoo Finance.
 
 ## Key Features
 
